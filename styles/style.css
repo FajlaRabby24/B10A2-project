@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,7 @@ body {
     cursor: pointer;
 }
 
-.btn-secondary{
+.btn-secondary {
     color: #e6533c;
     font-size: 18px;
     border-radius: 42px;
@@ -38,17 +38,25 @@ body {
     cursor: pointer;
 }
 
-.primary-middle{
+.primary-middle {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.des{
-color: rgba(255, 255, 255, 0.5);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
-margin: 28px 0;
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin: 28px 0;
 }
