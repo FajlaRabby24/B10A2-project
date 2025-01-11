@@ -1,0 +1,36 @@
+.runExtra{
+    display: flex;background-color: #222222;
+    margin: 130px auto;
+    justify-content: space-between;
+    border-radius: 18px;
+    padding:18px 25px ;
+   
+}
+
+.runExtra-content{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.runExtra-content button{
+    display: block;
+}
+
+.runExtra-content > .des{
+    margin: 14px 0 34px 0;
+    max-width: 500px;
+}
+
+.runExtra-img{
+    max-width: 50%;
+    height: 312px;
+}
+
+.runExtra-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
