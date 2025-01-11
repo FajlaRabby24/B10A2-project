@@ -1,0 +1,44 @@
+.habits {
+    margin: 100px auto;
+}
+
+.habits>.title {
+    text-align: center;
+}
+
+.habits>.des {
+    text-align: center;
+    margin: 14px auto 58px auto;
+    width: 671px;
+}
+
+.habits-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.habits-card {
+    max-width: 231px;
+    text-align: center;
+    padding: 15px ;
+    border-radius: 12px;
+    transition: .01s ease-in;
+    cursor: pointer;
+}
+
+.habits-card:hover{
+    background-color: #cccccc21 ;
+}
+
+.habits-card-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 15px 0 5px 0;
+}
+
+.habits-card img {
+    border-radius: 50%;
+}
