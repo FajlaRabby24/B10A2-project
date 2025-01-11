@@ -44,6 +44,10 @@ body {
     margin: 0 auto;
 }
 
+.secondary-middle {
+    max-width: 1330px;
+}
+
 .title {
     color: rgb(255, 255, 255);
     font-size: 40px;

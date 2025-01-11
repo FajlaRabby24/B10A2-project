@@ -1,0 +1,43 @@
+.trainExer{
+    margin: 130px auto;
+    
+}
+
+.trainExer > .des{
+    margin: 14px 0 50px 0;
+    max-width: 671px;
+}
+
+.trainExer-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Filter: drop-shadow( px px px black )  blur( px )  brightness(%)  contrast(%)  grayscale(%)  hue-rotate(deg)  invert(%)  opacity(%)  saturate(1)  sepia(%) 06ffd280  */
+
+.trainExer-card:nth-child(1){
+    max-width: 351px;
+}
+
+.trainExer-card:nth-child(2){
+    max-width: 589px;
+}
+.trainExer-card:nth-child(3){
+    max-width: 390px;
+}
+.trainExer-card:nth-child(4){
+    max-width: 485px;
+}
+.trainExer-card:nth-child(5){
+    max-width: 449px;
+}
+.trainExer-card:nth-child(6){
+    max-width: 396px;
+}
+
+.trainExer-card-container .trainExer-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
