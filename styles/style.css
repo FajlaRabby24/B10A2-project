@@ -46,6 +46,7 @@ body {
 
 .secondary-middle {
     max-width: 1330px;
+    margin: 0 auto;
 }
 
 .title {
